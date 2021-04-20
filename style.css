@@ -1,0 +1,76 @@
+
+body{
+  background-color: #fff;
+}
+
+
+rect{
+  fill:grey;
+}
+  .selected>rect{
+    z-index: 11;
+    
+    fill: #ebb553 /*24a12ad7*/;
+    
+
+
+  }
+
+
+
+  .permaactive>rect{
+    z-index: 11;
+    
+    fill:#3986b9;
+    
+
+
+  }
+  .permaactive>text{
+    fill: #eeeeee;
+
+  }
+
+  .tempactive>rect{
+    z-index: 11;
+    
+    fill: #aed3e7;
+    
+
+
+  }
+
+
+  .selected>text{
+    font-weight: bold;
+    fill: #222222;
+    
+  }
+  .tooltip { pointer-events: none; }
+
+  .uniSelected>rect{
+    fill: #2c8150 /*24a12ad7*/;
+    
+
+
+  }
+
+  .uniSelected>text{
+
+    fill: #ffffff;
+
+  }
+
+  
+  table{
+   max-height: 400px;
+   overflow-y: scroll;
+   border-collapse:separate;
+  border:1px solid black;
+  }
+
+  table th{
+
+    border-bottom:  1px solid black ;
+  }
+ 
